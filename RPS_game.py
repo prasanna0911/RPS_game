@@ -58,4 +58,5 @@ def rps():
     return play_rps
 
 play=rps()
-play()
+if __name__=='__main__':
+    play()
